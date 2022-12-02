@@ -123,5 +123,6 @@
 #define S_fart1			16
 #define S_fart2			17
 #define S_fart3			18
+#define S_stoomboot     19
 
 #endif
