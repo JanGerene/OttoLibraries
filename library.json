@@ -1,16 +1,16 @@
 {
-  "name": "OttoDIYLib",
-  "version": "13.0.0",
-  "description": "Official Arduino library for controlling original Otto DIY bipedal robots",
+  "name": "OttoLibraries",
+  "version": "0.1.1",
+  "description": "cloned Arduino library for controlling original Otto DIY bipedal robots",
   "keywords": "otto, ottodiy, robot, servo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OttoDIY/OttoDIYLib"
+    "url": "https://github.com/JanGerene/OttoLibraries"
   },
   "authors": [
     {
-      "name": "Otto DIY community",
-      "url": "https://github.com/OttoDIY",
+      "name": "Jan Gerene",
+      "url": "https://github.com/JanGerene",
       "maintainer": true
     }
   ],
