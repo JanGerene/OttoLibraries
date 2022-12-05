@@ -1,24 +1,18 @@
 # Otto DIY Robot Arduino Libraries
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-![version](https://img.shields.io/badge/version-13.0-blue)
 
-This repository have all the main [Otto DIY robot](https://www.ottodiy.com/) libraries for Arduino compatible boards
-
-Star us on GitHub, it helps!
+This repository has all the main libraries for Arduino compatible boards
 
 ## Installation
 
-1. [Download the .zip Otto libraries here](https://github.com/OttoDIY/OttoDIYLib/archive/master.zip)
-2. Open Arduino IDE and navigate to Sketch > Include Library > Add .ZIP Library. At the top of the drop down list, select the option to ¨Add .ZIP Library¨.
-3. Navigate to the .zip file's location, that you just downloaded and open it.
-4. In the main window you will see in the bottom back area a message that it has been installed.
-5. To verify they are properly installed, go to Sketch > Include Library menu. You should now see the library at the bottom of the drop-down menu.
+in PlatformIO use lib_deps in platformio.ini:
 
-That means it is ready to use Otto example codes! you can find them in File > Examples > OttoDIYLib
-[for more details or other ways to install libraries visit this link](https://www.arduino.cc/en/Guide/Libraries)
-
-You can also find this library in the Arduino Manager as Otto DIYLib for quick installation, (do not use other non compatible libraries.)
+```
+lib_deps =
+  https://github.com/JanGerene/OttoLibraries@^v  arduino-libraries/Servo@^0.1.1
+  featherfly/SoftwareSerial@^1.0    
+```
 
 ## Compatible Hardware
 
@@ -191,8 +185,7 @@ h, you can try change between 5 to 15
 otto.sing(songName);
 ```
 
-By just changing what is inside the () we can change the sounds easily to 19 different ones.
-Simple as copying and pasting in a new row to make the sounds as many times as you like.
+songnames:
 
 - S_connection
 - S_disconnection
@@ -257,46 +250,3 @@ As you see it’s very simple, but what it does is quite advanced.
 
 The OttoDIYLib is licensed under the terms of the GPL Open Source
 license and is available for free.
-
-Welcome to the [Otto DIY community](http://builders.ottodiy.com/)
-
-Big thanks to all our contributors
-
-- @JavierIH
-- @Obijuan
-- @jarsoftelectrical
-- @stembotvn
-- @sfranzyshen
-- @tehniq3
-- @logix5
-- @DiegoSSJ
-- @loreman
-- @justinotherguy
-- @bhm93
-- @wendtbw
-- @agomezgar
-- @BodoMinea
-- @chico
-- @PinkDev1
-- @MXZZ
-- @Pawka
-- @per1234
-- @FedericoBusero
-- @hulkco
-- @mishafarms
-- @nisha-appanah
-- @pabloevaristo
-- @ProgrammerBruce
-- @Nca78
-- @dleval
-
-## How to Contribute
-
-Contributing to this software is warmly welcomed. There are 3 ways you can contribute to this project:
-
-1. Test and if find a problem then post an issue.
-2. Helps us solve the issues or other bugs.
-3. Improve and optimize the current libraries.
-You can do this [basically by forking](https://help.github.com/en/articles/fork-a-repo), committing modifications and then [pulling requests](https://help.github.com/en/articles/about-pull-requests).Please add a change log and your contact into file header.
-
-Thanks for your contribution in advance.
