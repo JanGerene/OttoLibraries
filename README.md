@@ -11,7 +11,7 @@ in PlatformIO use lib_deps in platformio.ini:
 ```
 lib_deps =
   https://github.com/JanGerene/OttoLibraries@^0.1.1
-  arduino-libraries/Servo@^0.1.1.8
+  arduino-libraries/Servo@^1.1.8
   featherfly/SoftwareSerial@^1.0    
 ```
 
