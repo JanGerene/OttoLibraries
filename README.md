@@ -4,6 +4,8 @@
 
 This repository has all the main libraries for Arduino compatible boards
 
+Based on https://github.com/OttoDIY/OttoDIYLib
+
 ## Installation
 
 in PlatformIO use lib_deps in platformio.ini:
